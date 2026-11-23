@@ -71,8 +71,8 @@ func (a *Average[T]) Result() T {
 {{< /fig-quote >}}
 
 `Average[T]` 型では `Add(T)` メソッドで値を加えていって `Result()` メソッドで結果を取り出す構成になっている（コードに対するツッコミはなしでw）。
-ここで `Add()` メソッドの引数には `T` 型とは異なる数値型を指定し，内部でキャストして加算したいところであるが，1.27 より前では `Average[T]` 型の型パラメータは `T` の制約に縛られているため，メソッドでそれ以外の型パラメータを追加することはできない。
-どうしてもキャストして加算したいのであれば，専用の Generic 関数を用意する。
+ここで `Add()` メソッドの引数には `T` 型とは異なる数値型を指定し，内部でキャストして加算したいところであるが，1.27 より前までは，メソッドで独自の型パラメータを指定することはできなかった。
+どうしてもキャストして加算したいのであれば，専用の Generic 関数を用意していた。
 
 {{< fig-quote class="nobox" type="markdown" title="『実用 Go言語 第2版』リスト 5-16：関数にして渡す" link="https://www.oreilly.co.jp/books/9784814401369/" >}}
 ```go
@@ -139,7 +139,7 @@ type MyInterface interface { // interface type with generic method (not allowed)
 }
 ```
 
-と書いても "interface method must have no type parameters" というコンパイルエラーになる。
+と書いても "`interface method must have no type parameters`" とコンパイルエラーになる。
 
 それじゃあ，というので `interface` 型のメソッド定義から型パラメータを外した上で
 
@@ -171,11 +171,11 @@ cannot use &MyStruct{} (value of type *MyStruct) as MyInterface value in return 
 But in more complex programs, the relation between an interface value method call and its possible targets is significantly less obvious. This relation typically spans across packages, making it difficult or impossible to deduce in the general case.
 {{< /fig-quote >}}
 
-というわけで `interface` 型のメソッドでは Generic Method を使えなくしているようだ。
+というわけで `interface` 型では Generic Method 定義を使えなくしているようだ。
 
 ### Generic Method を使った実装
 
-[Go] 1.27 の [`math/rand/v2`] パッケージでは，Generic Method を使った乱数生成が可能になっている。
+たとえば [Go] 1.27 の [`math/rand/v2`] 標準パッケージでは，Generic Method を使った乱数生成が可能になっている。
 
 ```go {hl_lines=[11]}
 package main
