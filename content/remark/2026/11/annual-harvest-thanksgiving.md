@@ -53,7 +53,7 @@ draft = false
 
 ## 佐太神社の神在祭
 
-「そういや，昨年の今頃に[佐太神社]でお祭りやってたな」と思い出し，行ってみることにした。
+「そういや，[昨年の今頃]({{< ref "/remark/2025/11/autumn-leaves-at-matsue-catle.md" >}} "松江城で紅葉狩り（お散歩カメラ 2025-11-22）")に[佐太神社]でお祭りやってたな」と思い出し，行ってみることにした。
 
 {{< fig-img src="./55668812500_f5b1df0cc5_e.jpg" title="佐太神社（神在祭） | Flickr" link="https://www.flickr.com/photos/spiegel/55668812500/" >}}
 
