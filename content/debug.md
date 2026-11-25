@@ -216,8 +216,8 @@ gitGraph
 
 | コードと表示                                                                                                                            |
 | --------------------------------------------------------------------------------------------------------------------------------------- |
-| `{{</* icons "github" "twitter" "twitter-sq" "x-twitter" "x-twitter-sq" "mastodon" "bluesky" "strava" "medium" "tumblr" "instagram" "flickr" "facebook" "facebook-sq" "linkedin" "pocket" */>}}` |
-| {{< icons "github" "twitter" "twitter-sq" "x-twitter" "x-twitter-sq" "mastodon"  "bluesky" "strava" "medium" "tumblr" "instagram" "flickr" "facebook" "facebook-sq" "linkedin" "pocket" >}}      |
+| `{{</* icons "github" "twitter" "twitter-sq" "x-twitter" "x-twitter-sq" "mastodon" "bluesky" "discord" "strava" "medium" "tumblr" "instagram" "flickr" "facebook" "facebook-sq" "linkedin" "pocket" */>}}` |
+| {{< icons "github" "twitter" "twitter-sq" "x-twitter" "x-twitter-sq" "mastodon" "bluesky" "discord" "strava" "medium" "tumblr" "instagram" "flickr" "facebook" "facebook-sq" "linkedin" "pocket" >}}      |
 
 ### 汎用
 
